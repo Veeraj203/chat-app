@@ -69,7 +69,7 @@ export default function Home() {
   return (
     <div className="flex flex-col h-screen bg-gray-100">
       {!name ? (
-        <div className="flex flex-col items-center justify-center h-full gap-4">
+        <div className="flex flex-col items-center justify-center h-full gap-4 text-color-gray-700">
           <h1 className="text-xl font-bold">Enter your name to chat</h1>
           <input
             type="text"
@@ -82,7 +82,7 @@ export default function Home() {
       ) : (
         <>
           <header className="bg-green-600 text-white p-4 shadow text-center text-lg font-semibold">
-            HerChat with Her ❤️
+            private chat with kukush
           </header>
 
           <div className="flex-1 overflow-y-auto p-4 space-y-3">
